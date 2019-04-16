@@ -26,31 +26,40 @@ optional arguments:
                         
                         
   -user USERNAME [USERNAME ...], --username USERNAME [USERNAME ...]
+  
+  
                         Specify usernames for logging into the site. For
                         multiple use space delimitation
                         
                         
   -pass PASSWORD [PASSWORD ...], --password PASSWORD [PASSWORD ...]
+  
+  
                         Specify passwords for logging into the site. For
                         multiple use space delimitation
                         
                         
   -target_file TARGETFILE, --targetfile TARGETFILE
+  
+  
                         Specify the filepath to the target file. It must
                         contain url's of the target site, one per line
                         
                         
   -user_file USERNAMEFILE, --usernamefile USERNAMEFILE
+  
+  
                         Specify the filepath to the user file. It must contain
                         emails or username, one per line
                         
                         
   -pass_file PASSWORDFILE, --passwordfile PASSWORDFILE
+  
+  
                         Specify the filepath to the password file. It must
                         contain passwords, one per line
 
-Common usage is beta.py -target -user -pass or beta.py -user_file -target_file
--pass_file
+Common usage is beta.py -target -user -pass or beta.py -user_file -target_file -pass_file
 
 Basic HTTP Post Brute Forcing.
 
